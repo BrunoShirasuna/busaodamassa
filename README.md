@@ -12,6 +12,6 @@ As funções que retornam tanto os ônibus quanto as paradas fazem requisições
 
 Este projeto foi realizado por:  
   
-Bruno Akio Shirasuna   9778800  
-Enzo Yamada Satake     9844961  
-Matheus Soares         9761465
+Bruno Akio Shirasuna   NUSP 9778800  
+Enzo Yamada Satake    NUSP 9844961  
+Matheus Soares        NUSP 9761465
