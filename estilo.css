@@ -1,0 +1,172 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:  #ffffff;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    background-color:  #ffffff;
+  }
+#page{
+    height: 100%;
+    width: 100%
+
+}
+#header{
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:  #a3e1ff;
+}
+
+#header-1{
+    width: 5%;
+    height: 230px;
+}
+
+#header-2{
+    width: 60%;
+
+}
+
+#header-3{
+    width: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header-4{
+    width: 25%;
+
+}
+
+#search{
+    border-radius: 25px;
+    height: 80%;
+    width: 90%;
+    border-style: double;
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+
+
+
+#autocomplete{
+    height: 50%;
+    width: 70%;
+}
+
+#check{
+    margin-top: 5%;
+    margin-left: 8%; 
+}
+
+#alunos{
+    border-radius: 25px;
+    border-style: double;
+    height: 80%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#alunos-names{
+    margin-top: 12%;
+}
+
+.body{
+    background-color:  #ffffff;
+}
+
+#map {
+    height: 65%;
+    width: 100%;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    background-color:  #a3e1ff;
+}
+/* #button{
+    width: auto;
+    margin-top: 5%;
+    margin-left: 8%; 
+    background-color:  #3D8B37;
+} */
+.campos {
+	width: auto; 
+    /* margin: 0 auto 15px; */
+    margin-top: 5%;
+    margin-left: 1%; 
+	overflow: hidden; 
+}
+
+.campos label { 
+	background: #333; 
+	border-radius: 6px 0 0 6px; 
+	color: #f0f0f0; 
+	cursor: pointer; 
+	display: block; 
+	height: 16px; 
+	float: left; 
+	font: 15px 'Open Sans',Arial;
+	padding: 7px 13px;
+	width: 85px;
+}
+
+.campos input[type="text"] { 
+	background: #FFF;
+	color: #666;
+	display: block;
+	float: left;
+	font: 15px 'Open Sans',Arial; 
+	height: 8px;
+	padding: 9px;
+	width: 400px; 
+}
+
+.campos input[type="button"] { 
+	background: #2679A5; 
+	border-radius: 0 6px 6px 0;
+    color: #FFF;
+    cursor: pointer;
+    height: 30px;
+    font: 15px 'Open Sans',Arial;
+    padding: 2px 13px 6px;
+    width: 150px;
+
+    -webkit-transition: background .2s ease-in;
+    -moz-transition: background .2s ease-in;
+    -ms-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+}
+
+.campos input[type="button"]:hover { background: #12587C }
+
+.ui-autocomplete { 
+	background: #fff; 
+	border-top: 1px solid #ccc;
+	cursor: pointer; 
+	font: 15px 'Open Sans',Arial;
+	margin-left: 3px;
+	width: 493px !important;
+	position: fixed;
+}
+
+.ui-autocomplete .ui-menu-item { 
+	list-style: none outside none;
+	padding: 7px 0 9px 10px;
+}
+
+.ui-autocomplete .ui-menu-item:hover { background: #eee }
+
+.ui-autocomplete .ui-corner-all { 
+	color: #666 !important;
+	display: block;
+}

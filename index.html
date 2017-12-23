@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <!-- <script src="js/jquery.easydropdown.js" type="text/javascript"></script> -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="easydropdown.css"/>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY"></script> -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/func.js"></script>
+    <script src="js/geo.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+    <!-- <script src="js/checkStop.js"></script> -->
+    
+    
+    
+</head>
+
+<body>
+       
+        <!-- <script src="js/autocomplete.js"></script> -->
+    <div id="page">
+        <div class="container" id="header" >
+            <div id="header-1"></div>
+            <div id="header-2">
+                <div id="search">
+                    <!-- <form id="button" method="post" action="">
+                        <input id="autocomplete" placeholder="Enter your address" onFocus="geolocate()" type="text">
+                        <input id="button-1" type="text" placeholder="What address..(just click enter)" name = "address">
+                        <input type="button" value="Search">
+                        <input type="reset">
+                    </form> -->
+                    <form class="campos">
+                        <label for="txtEndereco">Endereço:</label>
+                        <input type="text" id="txtEndereco" name="txtEndereco" />
+                        <input type="button" id="btnEndereco" name="btnEndereco" value="Buscar" /><br>
+                    <!--tinha um </form> -->
+                        <form id="check" action="">
+                            <input id="check-bus" type="checkbox" name="vehicle" onchange="posicao(this)" >Ônibus<br>
+                            <!-- <input id="check-stops" type="checkbox" name="vehicle" onclick="checkStop(this)">Bus stop -->
+                            <input id="check-stops" type="checkbox" name="vehicle" onchange="stopGeral(this)">Paradas
+                        </form>
+                </div>
+            </div>
+            <div id="header-3"></div>
+            <div id="header-4">
+                    <div id="alunos">
+                            <ol id="alunos-names">
+                                <li>Bruno Akio Shirasuna   9778800</li>
+                                <li>Enzo Yamada Satake     9844961</li>
+                                <li>Matheus Soares         9761465</li>
+                            </ol>
+                    </div>
+            </div>
+            <div id="header-1"></div>
+        </div>
+        <div class ="body" id="map"></div>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-at8IOLet6y0wYn2NxAQPCnIhudjw_j4&callback=initMap">
+        </script>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
